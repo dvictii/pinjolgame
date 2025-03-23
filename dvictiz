@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game Scratch yang diembed di website">
+    <title>Game Scratch</title>
+    <style>
+        /* CSS untuk mempercantik tampilan */
+        body {
+            background-color: #1c1c1c; /* Latar belakang gelap */
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #FF5733; /* Warna oranye cerah */
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .game-container {
+            margin-top: 20px;
+            border: 2px solid #ccc;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            border: none;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selamat datang di Game Scratch!</h1>
+    <p>Berikut adalah game yang dibuat menggunakan Scratch. Nikmati permainannya!</p>
+
+    <div class="game-container">
+        <!-- Gantilah URL di src dengan ID proyek Scratch Anda -->
+        <iframe src="https://scratch.mit.edu/projects/1151292055/embed" 
+                allowtransparency="true" 
+                width="485" 
+                height="402" 
+                frameborder="0" 
+                scrolling="no" 
+                allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Semua hak cipta dilindungi</p>
+    </footer>
+
+</body>
+</html>
